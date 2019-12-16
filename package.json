@@ -1,0 +1,9 @@
+{
+  "name": "tor",
+  "version": "1.0.0",
+  "main": "wt.js",
+  "license": "MIT",
+  "dependencies": {
+    "webtorrent": "^0.107.16"
+  }
+}
