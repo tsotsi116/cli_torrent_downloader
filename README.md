@@ -1,2 +1,2 @@
-# cli_torrent_downloader
+# CLI TORRENT DOWNLOADER
 Download torrents on the command line
