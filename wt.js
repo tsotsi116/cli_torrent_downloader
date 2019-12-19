@@ -3,7 +3,7 @@ const WebTorrent = require('webtorrent');
 const client = new WebTorrent();
 
 // Put magnet link here
-const mag = '';
+const mag = process.argv[2];
 
 client.add(mag, {path: process.cwd()}, (t) => {
 	t.on('done', () => {
